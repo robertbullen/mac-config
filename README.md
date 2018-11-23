@@ -17,14 +17,14 @@ Steps for configuring a Mac computer.
 
 ### Web Installations
 
-#### Essentials
+#### Web Essentials
 
 * [iTerm2](https://www.iterm2.com/downloads.html)
 * [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 * [Skype](https://www.skype.com/en/download-skype/skype-for-computer/)
 * [Citrix Receiver](https://www.citrix.com/downloads/citrix-receiver/mac/receiver-for-mac-latest.html)
 
-#### Development
+#### Web Development
 
 * [Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -50,7 +50,7 @@ Steps for configuring a Mac computer.
 
 ### Homebrew Installations
 
-#### Essentials
+#### Homebrew Essentials
 
 * Homebrew
 
@@ -60,10 +60,10 @@ Steps for configuring a Mac computer.
 
     From <https://johndjameson.com/blog/updating-your-shell-with-homebrew/>:
 
-	1. `brew install bash`
-	2. `sudo -s`
-	3. `echo /usr/local/bin/bash >> /etc/shells`
-	4. `chsh -s /usr/local/bin/bash`
+    1. `brew install bash`
+    2. `sudo -s`
+    3. `echo /usr/local/bin/bash >> /etc/shells`
+    4. `chsh -s /usr/local/bin/bash`
 
     Change iTerm2's Default profile to use the new bash instance:
 
@@ -71,12 +71,20 @@ Steps for configuring a Mac computer.
     2. Go to **Profiles** page
     3. Under the **General** tab, change the **Command** radio from **Login shell** to **Command** and supply `/usr/local/bin/bash -il`
 
-#### Development
+#### Homebrew Development
 
 * nvm
 
     1. `brew install nvm`
     2. Update `.bash_profile` by following to the directions provided as output from step #1.
+
+* Python
+
+    1. `brew install python`
+
+* AWS CLI
+
+    1. `brew install awscli`
 
 * Java
 
@@ -85,10 +93,6 @@ Steps for configuring a Mac computer.
 * Cocoapods
 
     1. `brew install cocoapods`
-
-* Python
-
-    1. `brew install python`
 
 * Postman
 
@@ -112,14 +116,3 @@ Steps for configuring a Mac computer.
 * ImageMagick
 
     1. `brew install imagemagick`
-
-### PIP Installations
-
-* AWS CLI
-
-    _Prerequisite: Python must be installed. See the Homebrew instructions in the previous section._
-
-    From <http://docs.aws.amazon.com/cli/latest/userguide/installing.html>:
-
-	1. `pip install --upgrade --user awscli`
-	2. add the Python executables directory (e.g. `~/Library/Python/2.7/bin`) to `$PATH`
