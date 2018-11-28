@@ -4,10 +4,12 @@ Steps for configuring a Mac computer.
 
 ## System
 
-### Keyboard and Mouse Customizations
+### Keyboard, Mouse, and Trackpad Customizations
 
-* Maximize keyboard repeat rate and minimize repeat delay
-* Increase mouse pointer size and tracking speed
+* Keyboard: Maximize repeat rate and minimize repeat delay
+* Keyboard: Add Lock Screen shortcut to Touch Bar
+* Trackpad: Turn on "Tap to click"
+* Mouse: Increase mouse pointer size and tracking speed
 
 ## Software
 
@@ -34,8 +36,6 @@ Steps for configuring a Mac computer.
     2. Invoking that command.
     3. Restart the terminal(s).
 
-* [Docker CE](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-* Docker Kitematic (URL needed)
 * [Android Studio](https://developer.android.com/studio/index.html)
 * [Android File Transfer](https://www.android.com/filetransfer/)
 * [SQL Workbench/J](http://www.sql-workbench.net/downloads.html)
@@ -73,6 +73,14 @@ Steps for configuring a Mac computer.
 
 #### Homebrew Development
 
+* Github Desktop
+
+    1. `brew cask install github`
+
+* Atlassian SourceTree
+
+    1. `brew cask install sourcetree`
+
 * nvm
 
     1. `brew install nvm`
@@ -85,6 +93,10 @@ Steps for configuring a Mac computer.
 * AWS CLI
 
     1. `brew install awscli`
+
+* Docker
+
+    1. `brew cask install docker`
 
 * Java
 
@@ -101,10 +113,6 @@ Steps for configuring a Mac computer.
 * SoapUI
 
     1. `brew cask install soapui`
-
-* Github Desktop
-
-    1. `brew cask install github`
 
 #### Design & Photography
 
