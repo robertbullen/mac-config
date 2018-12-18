@@ -71,6 +71,10 @@ Steps for configuring a Mac computer.
     2. Go to **Profiles** page
     3. Under the **General** tab, change the **Command** radio from **Login shell** to **Command** and supply `/usr/local/bin/bash -il`
 
+    Command aliases:
+
+    1. `alias ll='ls -AFGhlp'`
+
 #### Homebrew Development
 
 * Github Desktop
